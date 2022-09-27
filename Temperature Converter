@@ -1,0 +1,9 @@
+// forcast today in Kelvin
+const kelvin = 0;
+// Celsius is 273 degrees less than kelvin
+const celsius = kelvin - 273;
+// Changes Celsius into Fahrenheit
+let fahrenheit = celsius * (9 / 5) + 32;
+//Round down Fahrenhiet temperature
+fahrenhiet = Math.floor(fahrenheit);
+console.log(`The temperature is ${fahrenheit} degrees Fahrenheit.`);
